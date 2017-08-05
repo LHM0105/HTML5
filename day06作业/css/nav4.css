@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body,html,ul,li{
+	margin:0;
+	padding:0;
+	}
+.box{
+	margin:100px auto;
+	width:800px;
+	height:65px;
+	background-color:#f1f1f1;
+	}
+
+li{
+	list-style:none;
+	float:left;
+	height:32px;
+	background:url(../img/nav4-1.jpg)
+	}
+a{
+	text-decoration:none;
+	display:block;
+	height:32px;
+	width:108px;
+	text-align:center;
+	line-height:32px;
+	background-color:#9a0000;
+	color:#FFF;
+	}
+a:hover{
+	color:red;
+	width:106px;
+	border-right:1px solid #d9dad5;
+	border-left:1px solid #d9dad5;
+	background:url(../img/nav4-2.jpg) no-repeat left top; 
+	}

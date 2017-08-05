@@ -1,0 +1,79 @@
+span{
+	float: left;
+	width:150px;
+	text-align:right;
+	padding-right:20px;
+}
+ul{
+	width:600px;
+	padding:0;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style: none;
+	float: left;
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin:0 10px 0 0;
+	border:1px solid #7E9DE5;
+	border-radius:5px;
+	border-bottom:none;
+}
+.last{
+	float: right;
+	width:100px;
+	border:none;
+}
+.last a{
+	font-size:12px;
+}
+.zwjs{
+	width:600px;
+	height: 400px;
+	float: left;
+	/*border:1px solid #7E9DE5;*/
+}
+.tabbox{
+	height:180px;
+	width:380px;
+	padding:10px;
+	border:1px solid #7E9DE5;
+	border-radius:5px;
+	margin-top:30px;
+}
+.tabbox .tabsin{
+	height:36px;
+	width:380px;
+	background:#f6f5f5 url(../img/1.gif) no-repeat 360px center;
+	border: 1px solid #CCCCCC;
+}
+ .tabbox .tabsin input{
+ 	border:0;
+ 	background:none;
+	height:36px;
+	width:380px;
+	line-height:36px;
+}
+.tabbox .tabs a{
+	display: block;
+	float:left;
+	padding:4px 12px ;
+	margin:3px 5px; 
+}
+.tabbox .tabs .a1{
+	background: #ADFF2F;
+}
+.tabbox .tabs .a2{
+	background: pink;
+}
+.tabbox .tabs .a3{
+	background: cornflowerblue;
+}
+.tabbox .tabs .a4{
+	background: orange;
+}

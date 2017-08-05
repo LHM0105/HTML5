@@ -1,0 +1,394 @@
+/*重置区域*/
+html,body{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+}
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,ol,dl,dd,dt{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	}
+	
+.box{
+	width: 100%;
+	float:left;
+	background: #f3f3f3 url(../img/bosszp/bg.jpg) no-repeat center top;
+}
+
+.navbg{
+	width:100%;
+	height: 100px;
+	background:#FFFFFF;
+}
+.nav{
+	width:1172px;
+	height:100px;
+	margin:0 auto;
+	/*background: pink;*/
+}
+.nav .logo{
+	height:77px;
+	width:95px;
+	padding-top:23px;
+	float: left;
+}
+.nav .logo a{
+	display:block;
+	height:54px;
+	width:55px;
+	background: url(../img/bosszp/logo.gif) no-repeat center;
+}
+.nav ul{
+	float:left;
+	height: 100px;
+}
+.nav ul li{
+	float: left;
+	height:100px;
+	line-height:100px;
+	padding-right:40px;
+}
+.nav ul li a{                                                                                                                                                                                                                   
+	color:#000000;
+}
+.diviceType{
+	width:200px;
+	height:100px;
+	float: right;
+}
+.diviceType .android{
+	display:inline-block;
+	width:102px;
+	height:100px;
+	background:url(../img/bosszp/11.gif) no-repeat 0 center;
+	float: left;
+}
+.diviceType .android span{
+	display:inline-block;
+	width:95px;
+	margin-top:40px;
+	height:20px;
+	border-right:1px solid #CCCCCC;
+}
+.diviceType .ios{
+	display:inline-block;
+	width:94px;
+	height:100px;
+	background:url(../img/bosszp/iphone.gif) no-repeat 0 center;
+	float: right;
+	vertical-align: middle;
+}
+
+/*内容content*/
+.contop-bg{
+	width:100%;
+	height:332px;
+}
+.contop{
+	width:1172px;
+	height:224px;
+	padding-top:108px;
+	margin: 0 auto;
+}
+.contop-con{
+	width:526px;
+	height:130px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contop h1{
+	font-size:36px;
+	color:#FFFFFF;
+	margin-bottom: 50px;
+}
+.contop a{
+	display:inline-block;
+	width:190px;
+	height:46px;
+	background:#53cac3;
+	font-size: 20px;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 46px;
+	border-radius:23px;
+}
+.contop span{
+	display:inline-block;
+}
+.con1-bg{
+	width:100%;
+	height: 438px;
+	margin-bottom:16px;
+}
+.con1{
+	width:1172px;
+	height:348px;
+	padding:42px 0 48px 0;
+	margin:0 auto;
+	background-color:#FFFFFF
+}
+.con1-l,.con1-c,.con1-r{
+	width:284px;
+	height:348px;
+	padding:0 53px 0 52px;
+	float:left;
+	border-right:1px solid #CCCCCC;
+}
+.con1-r{
+	border: none;
+}
+.con1-l-top{
+	width:284px;
+	height:60px;
+	float: left;
+}
+.con1-l-top span{
+	float: left;
+	border-left: 3px solid #53cac3;
+	text-indent: 10px;
+}
+.con1-l-top a{
+	display: block;
+	float: right;
+	width:48px;
+	line-height:1S8px;
+	height:18px;
+	border:1px solid #CCCCCC;
+	border-radius:10px;
+	font-size:10px;
+	color:#CCCCCC;
+	text-align: center;
+}
+.con1-l-top a:hover{
+	width:50px;
+	height:20px;
+	border:none;
+	background-color:#53cac3;
+	color:#FFFFFF ;
+}
+.con1-l .img{
+	width:284px;
+	height:156px;
+	margin-bottom:36px;
+	float: left;
+	background: url(../img/bosszp/mes1.jpg) no-repeat center;
+}
+.con1-c .img{
+	width:284px;
+	height:156px;
+	margin-bottom:36px;
+	float: left;
+	background: url(../img/bosszp/mes.jpg) no-repeat center;
+}
+.con1-r .img{
+	width:284px;
+	height:156px;
+	margin-bottom:36px;
+	float: left;
+	background: url(../img/bosszp/mes3.jpg) no-repeat center;
+}
+.con1-l p{
+	font-size: 18px;
+}
+.con1-l .details,.con1-c .details,.con1-r .details{
+	font-size:14px;
+	color:#CCCCCC;
+	float:left;
+	margin-top:20px;
+}
+.con1-l .details:hover,.con1-c .details:hover,.con1-r .details:hover{
+	color:#53cac3 ;
+}
+.con2-bg{
+	width:100%;
+	height:726px;
+}
+.con2{
+	width:1078px;
+	height:676px;
+	padding:50px 46px 0 48px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	/*background: #0000FF;*/
+}
+.con2-top,.con2-cen,.con2-bot{
+	height: 208px;
+	width:1058px;
+	padding:16px 0 0 20px;
+	border-bottom:1px solid #CCCCCC;
+}
+.con2-bot{
+	border: none;
+}
+.con2top-left{
+	height: 170px;
+	width:286px ;
+	float:left;
+	background: url(../img/bosszp/mes.jpg) no-repeat center;
+	position: relative;
+}
+.con2cen-left{
+	height: 170px;
+	width:286px ;
+	float:left;
+	background: url(../img/bosszp/mes1.jpg) no-repeat center;
+	position: relative;
+}
+.con2bot-left{
+	height: 170px;
+	width:286px ;
+	float:left;
+	background:url(../img/bosszp/mes3.jpg) no-repeat center;
+	position: relative;
+}
+.con2top-left span,.con2cen-left span,.con2bot-left span{
+	display: block;
+	position: absolute;
+	width:60px;
+	height: 24px;
+	left:-4px;
+	top:12px;
+	background: url(../img/bosszp/122.png) no-repeat left top;
+	color:#FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.con2-right{
+	width:734px;
+	height:170px;
+	padding-left: 30px;
+	float: left;
+	/*background: #0047E1;*/
+}
+.con2-right h3{
+	font-size: 18px;
+	font-weight: 500;
+	height: 36px;
+}
+.con2-right p{
+	line-height: 26px;
+	font-size: 14px;
+	height: 100px;
+}
+.con2-right p a{
+	color:#000000;
+}
+.con2-right span{
+	font-size:14px;
+	font-family: "微软雅黑";
+	color:#CCCCCC;
+}
+.con2-right .name{
+	color:#4eb1b3;
+}
+.con3-bg{
+	width:100%;
+	height:432px;
+	margin-top:16px;
+	margin-bottom:30px;
+}
+.con3{
+	width:1124px;
+	height:406px;
+	padding:26px 0 0 48px;
+	margin:0 auto;
+	background-color:#FFFFFF
+}
+.con3-top{
+	height: 30px;
+	width:1124px;
+}
+.con3-top span{
+	font-size: 18px;
+	color:#53cac3;
+	display: block;
+	height:20px;
+	line-height: 20px;
+	border-left: 3px solid #53cac3;
+	padding-left: 5px;
+}
+.con3-left{
+	height:358px;
+	width:704px;
+	float: left;
+}
+.con3-left-top{
+	height: 110px;
+	width:648px;
+	border-bottom:1px dotted #CCCCCC;
+}
+.con3-left-top .left-img{
+	width:146px;
+	height: 84px;
+	background: url(../img/bosszp/mes1.jpg) no-repeat center;
+	float: left;
+}
+.con3-left-top .right-txt{
+	width:484px;
+	height: 84px;
+	padding-left: 16px;
+	float:left;
+	
+}
+.con3-left-top .right-txt h4{
+	font-size:14px;
+	color:cornflowerblue;
+	line-height: 30px;
+}
+.con3-left-top .right-txt p{
+	font-size:12px;
+	line-height: 20px;
+}
+.con3-right{
+	width:370px;
+	height: 316px;
+	float: left;
+	background: url(../img/bosszp/111.png) no-repeat left bottom;
+}
+.con3-right span{
+	display: block;
+	width: 316px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 278px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.bottombg{
+	width:100%;
+	height: 234px;
+	background-color:#000000;
+}
+.bottom{
+	width:1172px;
+	height: 234px;
+	text-align: center;
+}
+.bottom ul{
+	height:110px;
+	line-height: 110px;
+	width:400px;
+	margin: 0 auto;
+}
+.bottom li{
+	float: left;
+}
+.bottom li a{
+	display:block;
+	padding:0 24px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.bottom p{
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height:28px;
+}

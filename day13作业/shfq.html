@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>手风琴效果</title>
+		<style>
+			ul{
+				width:300px;
+				margin:50px auto;
+			}
+			li{
+				list-style: none;
+				width:300px;
+				height:40px;
+				background: #CCCCCC;
+				margin:5px 0;
+				border-radius: 5px;
+				margin:1px;
+				
+			}
+			li a{
+				display: block;
+				width:300px;
+				height:40px;
+				text-align: center;
+				font-size: 20px;
+				line-height: 40px;
+				text-decoration: none;
+				color: black;
+			}
+			p{
+				margin:0;
+				width:280px;
+				padding:0 10px;
+				height:0;
+				background: #ADFF2F;
+				/*display:none;*/
+				overflow:hidden;
+				border-radius: 5px;
+			}
+			p:target{
+				height: 200px;
+				overflow-y:auto;
+				transition:height 0.3s;
+				/*display:block;*/
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#p1">点击打p1</a></li>
+			<p id="p1">this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1this is p1</p>
+			<li><a href="#p2">点击打p2</a></li>
+			<p id="p2">this is p2</p>
+			<li><a href="#p3">点击打p3</a></li>
+			<p id="p3">this is p3</p>
+		</ul>
+		<p lang="zh">这是zh的映射到恢复健康收到发货发挥可是</p>
+		<p lang="zh-tw">这是zh-tw的映射到恢复健康收到发货发挥可是</p>
+	</body>
+</html>

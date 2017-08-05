@@ -1,0 +1,66 @@
+html,body,ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.box{
+	height: 27px;
+	width:693px;
+	background:url(../img/Header.jpg) no-repeat;
+	margin:100px auto;
+	padding:149px 0 0 23px;
+}
+ul{
+	height: 27px;
+}
+ul li{
+	height:27px;
+	float:left;
+}
+ul .a1 a{
+	display:block;
+	width:66px;
+	height:27px;
+	background: url(../img/Navigation.gif) no-repeat left 0;
+}
+ul .a1 a:hover{
+	background: url(../img/Navigation.gif) no-repeat left -27px;
+}
+ul .a2 a{
+	display:block;
+	width:69px;
+	height:27px;
+	background: url(../img/Navigation.gif) no-repeat -66px top;
+}
+ul .a2 a:hover{
+	background: url(../img/Navigation.gif) no-repeat -66px -27px;
+}
+ul .a3 a{
+	display:block;
+	width:79px;
+	height:27px;
+	background: url(../img/Navigation.gif) no-repeat -135px top;
+}
+ul .a3 a:hover{
+	background: url(../img/Navigation.gif) no-repeat -135px -27px;
+}
+ul .a4 a{
+	display:block;
+	width:86px;
+	height:27px;
+	background: url(../img/Navigation.gif) no-repeat -213px -54px;
+}
+/*ul .a4 a:hover{
+	background: url(../img/Navigation.gif) no-repeat -213px -27px;
+}*/
+ul .a5 a{
+	display:block;
+	width:58px;
+	height:27px;
+	background: url(../img/Navigation.gif) no-repeat -299px top;
+}
+ul .a5 a:hover{
+	background: url(../img/Navigation.gif) no-repeat -299px -27px;
+}

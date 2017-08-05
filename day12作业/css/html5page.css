@@ -1,0 +1,109 @@
+html,body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width:100%;
+	background: #ccc;
+}
+p,ul,li,h3{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+#box{
+	margin:0 auto;
+	width:1000px;
+	/*overflow: hidden;*/
+	border:6px solid #ffffff;
+	padding: 0;
+}
+header{
+	height:80px;
+	background:#f47d31;
+}
+header h3{
+	height: 80px;
+	line-height: 80px;
+	font-size:60px;
+	text-align: center;
+	font-weight:600;
+	color:#FFFFFF;
+}
+.content{
+	padding:10px;
+	height: 400px;
+}
+footer{
+	height:50px;
+	line-height: 50px;
+	text-align:center;
+	background: #F47D31;
+	font-weight:600;
+	font-size:20px;
+	color:#FFFFFF;
+}
+
+nav{
+	height: 400px;
+	width:240px;
+	float: left;
+}
+nav h2{
+	color:#FFFFFF;
+	text-align:center;
+}
+ul li{
+	height: 50px;
+	border-bottom: 3px solid #FFFFFF;
+	line-height: 60px;
+	text-indent: 20px;
+}
+ul li a{
+	color: #F47D31;
+	font-weight: 600;
+}
+.content section{
+	height: 400px;
+	width:400px;
+	padding-left: 50px;
+	float: left;
+}
+.content aside{
+	width:200px;
+	float: left;
+	height: 360px;
+}
+article{
+	margin:10px 0;
+	background: #eeeeee;
+	padding:10px;
+}
+article header{
+	height: 30px;
+	font-size:16px;
+}
+article header h3{
+	height: 30px;
+	line-height: 30px;
+	font-size:16px;
+}
+article footer{
+	height: 25px;
+	line-height:25px;
+}
+aside{
+	padding: 20px;
+}
+aside h3{
+	color: #FFFFFF;
+}
+aside p{
+	color:#FFFFFF;
+	font-style: italic;
+}

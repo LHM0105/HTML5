@@ -1,0 +1,61 @@
+/*重置区域*/
+html,body{
+	width:100%;
+	height:100%;
+}
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,ol,dl,dd,dt{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	}
+	
+.box{
+	width: 100%;
+	height: 100%;
+	background: #f3f3f3 url(../img/bosszp/bg.jpg) no-repeat center top;
+}
+
+.navbg{
+	width:100%;
+	height: 100px;
+	position:relative;
+	background:#FFFFFF;
+}
+.nav{
+	width:1172px;
+	height:100px;
+	position:absolute;
+	left:50%;
+	margin-left:-586px;
+	/*background: pink;*/
+}
+.nav .logo{
+	height:77px;
+	width:95px;
+	padding-top:23px;
+	float: left;
+}
+.nav .logo a{
+	display:block;
+	height:54px;
+	width:55px;
+	background: url(../img/bosszp/logo.gif) no-repeat center;
+}
+.nav ul{
+	float:left;
+	height: 100px;
+}
+.nav ul li{
+	float: left;
+	height:100px;
+	line-height:100px;
+	padding-right:40px;
+}
+.nav ul li a{                                                                                                                                                                                                                   
+	color:#000000;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>表单</title>
+		<style>
+			.formdiv{
+				width:400px;
+				margin: 0 auto;
+				background: #CCCCCC;
+			}
+			fieldset{
+				border-left: none;
+				border-right: none;
+				border-bottom: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="formdiv">
+			<form action="" name="form1" method="post">
+				<fieldset>
+					<legend>个人信息</legend>
+					<!--<input type="text" value="" list="datalist" autocomplete="on"/>
+					<datalist id="datalist">
+						<option>选项1</option>
+						<option>选项2</option>
+						<option>选项2</option>
+					</datalist>-->
+					<label for="name">姓名*</label><input id="name" type="text" value="" /><br />
+					地址*<input type="text" value="" /><br />
+					出生*
+					<select>
+						<option selected="selected">1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+					<select>
+						<option selected="selected">Jan</option>
+						<option>Jan/option>
+						<option>Mar</option>
+					</select>
+					<select>
+						<option selected="selected">1979</option>
+						<option>2</option>
+						<option>3</option>
+					</select><br />
+					性别*<input id="male" type="radio"><label for="male">男</label>
+					<input id="female" type="radio"><label for="female">女</label>
+				</fieldset>
+				<fieldset>
+					<legend>其他信息</legend>
+					<fieldset>
+						<legend>你喜欢这个表单吗？</legend>
+						<input type="radio" id="yeslike"><label for="yeslike">喜欢</label>
+						<input type="radio" id="nolike"><label for="nolike">不喜欢</label>
+					</fieldset>
+					<fieldset>
+					<legend>你喜欢什么运动？</legend>
+					<input type="radio" id="zuqiu"><label for="zuqiu">足球</label>
+					<input type="radio" id="lanqiu"><label for="lanqiu">篮球</label>
+					</fieldset>
+					<fieldset>
+						<legend>请写下你的建议</legend>
+						<textarea></textarea>
+					</fieldset>
+					<input type="submit" value="提交个人信息" />
+				</fieldset>
+			</form>
+		</div>
+		
+	</body>
+</html>

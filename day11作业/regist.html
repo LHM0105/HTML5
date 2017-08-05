@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员注册</title>
+<link rel="stylesheet" type="text/css" href="css/regist.css" />
+</head>
+
+<body>
+	<form>
+    	<span>我是</span>
+        <input type="radio" name="sex" id="male" /><label for="male">男</label>
+        <input type="radio" name="sex" id="female"/><label for="female">女</label><br />
+        
+       	<span>生日</span>
+        <select>
+        	<option selected>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+        </select>年
+        <select>
+        	<option>1</option>
+            <option selected>3</option>
+            <option>6</option>
+        </select>月
+        <select>
+        	<option>1</option>
+            <option>10</option>
+            <option>20</option>
+        </select>日
+        
+        <br>
+		<label for="add"><span>常住地</span><input type="text" /></label><br>
+
+        <span>婚姻状况</span>
+        <input type="radio" name="status" />未婚
+        <input type="radio" name="status" />离异
+        <input type="radio" name="status" />丧偶<br>
+		<span>身高</span>
+        <select>
+        	<option selected>170cm</option>
+            <option>180cm</option>
+            <option>180+</option>
+        </select><br>
+		<span>学历</span>
+        <select>
+        	<option selected>本科</option>
+            <option>硕士</option>
+            <option>博士</option>
+        </select><br>
+		
+        <span>月薪</span>
+        <select>
+        	<option selected>2000-5000</option>
+            <option>5000-8000</option>
+            <option>8000+</option>
+        </select><br>
+        
+       <span>注册方式</span> 
+        <input type="radio" name="regMethod" />邮箱注册
+        <input type="radio" name="regMethod" />手机注册<br>
+
+       <label for="telnum"><span>手机号</span><input type="tel" id="telnum"/></label><br>
+       <label for="num"><span>验证码</span></label><input type="number" id="num"/><br>
+        <label for="pwd"><span>创建密码</span></label><input type="password" id="pwd"/><br>
+        <label for="sname"><span>昵称</span><input type="text" id="sname"/></label><br><br />
+        <span>自我介绍</span>
+        <div class="zwjs">
+        	<ul>
+	        	<li>贴标签</li>
+	        	<li>自己写</li>
+	        	<li>帮你写</li>
+	        	<li class="last"><a href="#">看看别人怎么写？</a></li>
+	        </ul>
+	        <div class="tabbox">
+	        	<div class="tabsin">
+	        		<input type="text" placeholder="请至少选择三个标签" />
+	        	</div>
+	        	<div class="tabs">
+	        		<a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a><a class="a3" href="#">宅</a><a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a><a class="a3" href="#">宅</a><a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a><a class="a3" href="#">宅</a><a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a><a class="a3" href="#">宅</a><a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a><a class="a3" href="#">宅</a><a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a><a class="a3" href="#">宅</a><a class="a1" href="#">完美主义</a><a class="a2" href="#">憨厚</a>
+	        	</div>
+	        	
+	        </div>
+        </div>
+        
+    </form>
+</body>
+</html>

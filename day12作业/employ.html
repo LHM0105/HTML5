@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>智联招聘</title>
+	<style>
+	.f1,.f2,.f3{
+		border-bottom:none;
+		border-left: none;
+		border-right:none;
+		padding-left: 150px;
+	}
+	form{
+		width:1000px;
+		margin: 0 auto;
+	}
+	header h1{
+		text-align:center;
+		color:cadetblue;
+	}
+	nav{
+		width:1000px;
+		margin:0 auto;
+	}
+	a{
+		display: block;
+		text-align: center;
+		padding:0 80px 0 90px;
+		float: left;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight:600;
+		color:cadetblue;
+	}
+	.tit{
+		font-weight:600;
+		font-size: 20px;
+	}
+	.red{
+		color:red;
+	}
+	label{
+		display: block;
+		width:80px;
+		text-align: right;
+		float:left;
+		padding-right:20px;
+	}
+	</style>
+</head>
+
+<body>
+	<header><h1>智联招聘</h1></header>
+	<nav>
+		<a href="#">基本情况</a>
+		<a href="#">基本情况</a>
+		<a href="#">基本情况</a>
+		<a href="#">基本情况</a>
+	</nav>
+	<section>
+		<form action="" method="post">
+			<fieldset>
+				<span class="tit">个人信息</span>
+			
+			 	<span class="red" > *为必填项</span><br><br>
+			
+				<fieldset class="f1">
+					
+					<label for="name"><span class="red">*</span>姓名</label>
+				    <input type="text" value="" id="name" />
+				
+					<br /><br />
+				    
+				    <label><span class="red">*</span>性别</label>
+				    <input type="radio" name="sex"/>男
+				    <input type="radio" name="sex"/>女
+				    <br /><br />
+				
+					<label for="birthday"><span class="red">*</span>出生日期</label>
+					<input id="birthday" type="date" />
+					<br /><br />
+				   <label for="date1"></label><span class="red">*</span> 参加工作年份
+				   <input type="date" id="date1" />
+				    <!--<select>
+				    	<option>2005年1月</option>
+				        <option selected>2005年3月</option>
+				        <option>2005年2月</option>
+				    </select><br><br>-->
+					<br /><br />
+				    <label><span class="red">*</span>户口所在地</label>
+				    <input type="text" list="add-list" />
+				    <datalist id="add-list">
+				    	<option>上海</option>
+				        <option selected>北京</option>
+				        <option>深圳</option>
+				    </datalist>
+				    <br /><br />
+				    <label><span class="red">*</span>现居城市</label>
+					<input type="text" list="add-list" />
+				    <datalist id="add-list">
+				    	<option>上海</option>
+				        <option selected>北京</option>
+				        <option>深圳</option>
+				    </datalist>
+				    <br /><br />
+					<label for="telephone"><span class="red">*</span>联系方式</label>
+				    <input id="telephone" type="tel" />
+				    <br /><br />
+					<label for="email"><span class="red">*</span>电子邮箱</label>
+				    <input id="email" type="email" />
+				    <br /><br />
+					<label><span class="red">*</span>婚姻状况</label>
+				    <input type="radio" name="status"/>未婚
+				    <input type="radio" name="status"/>已婚
+				    <input type="radio" name="status"/>离异<br><br>
+					<span class="red">*</span>国籍
+					<input type="text" list="country-list" />
+					<datalist id="country-list">
+						<option>台湾</option>
+				        <option selected>中国大陆</option>
+				        <option>海外</option>
+					</datalist>
+					<br /><br />
+				    <!--<select>
+				    	<option>台湾</option>
+				        <option selected>中国大陆</option>
+				        <option>海外</option>
+				    </select><br><br>-->
+				    <label><span class="red">*</span>证件</label>
+				    <select>
+				    	<option>护照</option>
+				        <option selected>身份证</option>
+				    </select>
+				    <input type="number" />
+				    <br /><br />
+					<label><span class="red">*</span>海外工作/学习经历</label>
+				    <input type="radio" name="studyStatus"/>有
+				    <input type="radio" name="studyStatus"/>无
+				    <br /><br />
+					<label><span class="red">*</span>政治面貌</label>
+				    <input type="radio" name="polity"/>党员
+				    <input type="radio" name="polity"/>团员
+				    <input type="radio" name="polity"/>群众
+			    	<br /><br />
+			    </fieldset>
+				
+				<br /><br />
+			    <span class="tit">求职意向</span>
+			 	<span style="color:red" > *为必填项</span><br>
+			    <fieldset class="f2">
+				    <span class="star">*</span>期望工作性质
+				    <input type="checkbox" name="worktype" />全职&nbsp;&nbsp;
+					<input type="checkbox" name="worktype" />兼职&nbsp;&nbsp;
+				    <input type="checkbox" name="worktype" />实习<br><br>
+				
+					<span class="star">*</span>期望工作地点
+				    <select>
+				    	<option>上海</option>
+				        <option selected>选择/修改</option>
+				        <option>深圳</option>
+				    </select><br><br>
+				    <span class="star">*</span>期望工作行业
+				    <select>
+				    	<option>IT</option>
+				        <option selected>选择/修改</option>
+				        <option>销售</option>
+				    </select><br><br>
+				    <span class="star">*</span>期望工作职业
+				    <select>
+				    	<option>教师</option>
+				        <option selected>选择/修改</option>
+				        <option>文职</option>
+				    </select><br><br>
+					<span class="star">*</span>期望月薪（税前）
+				    <select>
+				    	<option>5000-8000</option>
+				        <option selected>请选择</option>
+				        <option>3000-5000</option>
+				    </select><br><br>
+				    <span class="star">*</span>工作状态
+				    <select>
+				    	<option>在职</option>
+				        <option selected>我目前离职，可立即上岗</option>
+				    </select><br><br>
+				    <input type="checkbox" />将此求职意向显示在我的简历中<br><br>				
+				</fieldset>
+				<br><br>
+			 	<b><span style="font-size:20px">自我评价</span></b>
+			 	<span style="color:red" > *为必填项</span>
+			 	<br>
+				<fieldset class="f3">
+					
+				
+				    <span class="star">*</span>标题
+				    <select>
+				        <option selected>自我评价</option>
+				        <option>获奖情况</option>
+				    </select><br><br>
+				    <span class="star">*</span>内容
+				    <textarea cols="50" rows="10"></textarea><br><br>
+				    
+					附件简历
+				 	<span style="color:red" > *为必填项</span>
+				 	<br><br>
+				    <input type="radio" name="submitjianli" />上传简历附件<br><br>
+					<span class="star">*</span>选择简历文档：
+				    <input type="file" value="选择文件"/>
+				    <br><br>
+				    
+				    <input type="radio" name="submitjianli" />粘贴文本简历<br><br>
+				    
+					<span class="star">*</span>简历文本：
+				    <textarea cols="50" rows="10"> </textarea>
+				</fieldset>
+			</fieldset>
+		</form>
+
+	</section>
+</body>
+</html>

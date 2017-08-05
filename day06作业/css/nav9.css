@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body,html,ul,li{
+	margin:0;
+	padding:0;
+	}
+.box{
+	height:100px;
+	width:600px;
+	margin:200px auto;
+	
+	padding:10px 0;
+	}
+ul{
+	height:28px;
+	width:500px;
+	background-color:#da4d17;
+	}
+li{
+	list-style:none;
+	float:left;
+	border-right:1px solid #FFF;
+	}
+a{
+	display:block;
+	width:80px;
+	height:20px;
+	background-color:#dfdfdf;
+	text-align:center;
+	line-height:20px;
+	color:#6a6a6a;
+	text-decoration:none;
+	font-size:12px;
+	}
+a .ch{
+	display:none;
+	}
+a:hover{
+	background-color:#da4d17;
+	color:#FFF;
+	}
+a:hover .ch{
+	display:inline;
+	}
+a:hover .en{
+	display:none;
+	}

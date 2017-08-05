@@ -1,0 +1,768 @@
+/*重置区域*/
+html,body,p,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+/*顶部top*/
+.topbg{
+	width:100%;
+	height:25px;
+	background-color:#eeeeee;
+	border-bottom:1px solid #e5e5e5;
+	
+}
+.top{
+	width:1190px;
+	height:25px;
+	margin: 0 auto;
+	
+	/*background:pink;*/
+}
+.top-l{
+	width:615px;
+	height:25px;
+	float:left;
+}
+.top-l .login{
+	height:25px;
+	float:right;
+}
+.top-l a{
+	display:block;
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+	color:#fc6700;
+	float: left;
+	padding:0 15px 0 0;
+}
+.top ul{
+	width:575px;
+	height:16px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.top .last{
+	display:inline-block;
+	height:25px;
+}
+.top ul li{
+	float:left;
+	height:16px;
+}
+.top ul a{
+	display:block;
+	float:left;
+	height:16px;
+	line-height: 16px;
+	border-left:1px solid #d4d4d4;
+	font-size:12px;
+	color:#666666;
+}
+.top ul .a1 a{
+	text-indent:15px;
+	width:100px;
+	background:url(../img/名鞋库/li.gif) no-repeat 83px 6px;
+}
+.top ul .a2 a{
+	width:116px;
+	background:url(../img/名鞋库/li.gif) no-repeat 98px 6px;
+}
+.top ul .a2 a span{
+	display: block;
+	width:86px;
+	height:inherit;
+	background:url(../img/名鞋库/li2.gif) no-repeat 15px center;
+	padding-left:30px;
+}
+.top ul .a3 a{
+	text-indent:15px;
+	width:90px;
+	color:#333333;
+}
+.top ul .a4 a{
+	width:110px;
+	background:url(../img/名鞋库/qq.gif) no-repeat 14px 0;
+	text-indent:35px;
+}
+.top ul .a5 a{
+	width:152px;
+	border-right:1px solid #d4d4d4;
+	background:url(../img/名鞋库/phone.gif) no-repeat 15px 0;
+}
+/*搜索部分search*/
+.searchbg{
+	width:100%;
+	height:77px;
+}
+.search{
+	width:1190px;
+	height:77px;
+	margin: 0 auto;
+	/*background:pink;*/
+}
+.search-l{
+	width:420px;
+	height:63px;
+	float:left;
+	margin-top:14px;
+	background: url(../img/名鞋库/default_icon_bg.png) no-repeat 0 -1px;
+}
+.search-c{
+	width:500px;
+	height:61px;
+	padding-top:16px;
+	margin-left:118px;
+	float:left;
+}
+.sec{
+	width:340px;
+	height:32px;
+	float:left;
+	overflow:hidden;
+}
+.sec .input{
+	width:270px;
+	height: 26px;
+	line-height:26px;
+	border:0;
+	border-left:2px solid #d5d5d5;
+	border-top:2px solid #d5d5d5;
+	border-bottom:2px solid #d5d5d5;
+	float:left;
+	margin:0;
+}
+.sec .btn{
+	width:65px;
+	height:32px;
+	float: left;
+	background:#444444;
+	color:white;
+	border:0;
+}
+.search-c p{
+	clear:left;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	color:#cdcdcd;
+	overflow: hidden;
+}
+.search-c p a{
+	color:#898989;
+}
+.search-r{
+	width:150px;
+	height:57px;
+	padding-top:20px;
+	float: right;
+}
+.search-r a{
+	display:block;
+	width:81px;
+	height:24px;
+	padding:10px 0 0 45px;
+	font-size:12px;
+	color:#676767;
+	float: right;
+	background: url(../img/名鞋库/default_icon_bg.png) no-repeat 0 -64px;
+}
+.search-r a:hover{
+	background: url(../img/名鞋库/default_icon_bg.png) no-repeat 0 -99px;
+}
+.search-r a span{
+	color:red;
+}
+
+/*导航区域nav*/
+.navbg{
+	width:100%;
+	height:34px;
+	background-color:#a21f25;
+}
+.nav{
+	width:1190px;
+	height:34px;
+	position:absolute;
+	left:50%;
+	margin-left:-595px;
+
+}
+.nav-l{
+	width:190px;
+	height:34px;
+	position:relative;
+	float:left;
+	
+}
+.nav-l .head{
+	display: block;
+	height:34px;
+	width:190px;
+	background:url(../img/名鞋库/nav1.gif) no-repeat center;
+	float:left;
+}
+.nav-l ul{
+	width:190px;
+	height:385px;
+	float:left;
+	position:absolute;
+	z-index:2;
+	top:34px;
+	
+}
+.nav-l ul li{
+	width:190px;
+	height:42.7px;
+}
+.nav-l ul li a{
+	display:block;
+	width:190px;
+	height:42.7px;
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -50px;
+	font-size: 12px;
+	text-indent:40px;
+	line-height: 42.7px;
+	color:white;
+	opacity:0.98;
+	filter:alpha(opacity=98);
+}
+.nav-l ul .a2 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -95px;
+}
+.nav-l ul .a3 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -135px;
+}
+.nav-l ul .a4 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -190px;
+}
+.nav-l ul .a5 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -235px;
+}
+.nav-l ul .a6 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -280px;
+}
+.nav-l ul .a7 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -330px;
+}
+.nav-l ul .a8 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -378px;
+}
+.nav-l ul .a9 a{
+	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -422px;
+}
+
+.nav-c{
+	width:560px;
+	height:34px;
+	float:left;
+	/*background:green;*/
+}
+.nav-c li{
+	float: left;
+	height:34px;
+}
+.nav-c li a{
+	display:block;
+	height:34px;
+	line-height:34px;
+	font-size: 14px;
+	color:#FFF;
+	padding:0 18px 0 13px;
+	background:url(../img/名鞋库/nav2.gif) no-repeat right center;
+	
+}
+.nav-c li a:hover{
+	background:#444444;
+}
+.nav-c .first a{
+	background:#444444;
+}
+.nav-c .last a{
+	background:none;
+}
+.nav-r{
+	width:196px;
+	height: 34px;
+	float:right;
+}
+.nav-r li{
+	float: left;
+	height: 34px;
+	padding-top:11px;
+}
+
+.nav-r li a{
+	display: block;
+	height:14px;
+	padding:0 10px 0 10px;
+	float:left;
+	border-right:1px solid #d98c92;
+	font-size:12px;
+	color:#FFF;
+}
+.nav-r ul li a:hover{
+	color:#fbcb00;
+}
+.nav-r .youhui{
+	position: relative;
+}
+.nav-r .youhui span{
+	display: block;
+	height: 17px;
+	width:33px;
+	border-radius:2px;
+	background:url(../img/名鞋库/201410111038.gif) no-repeat -68px top;
+	position: absolute;
+	top:-8px;
+	left:39px;
+}
+.nav-r .manjian{
+	width:190px;
+	height:385px;
+	float:right;
+	position:absolute;
+	z-index:2;
+	top:34px;
+	background-color:#d9d9d9;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+}
+.nav-r .manjian .goods{
+	height: 168px;
+	width: 190px;
+	padding-top:24px;
+	text-align: center;
+	float: left;
+}
+.goods img{
+	width:126px;
+	height:126px;
+	border-radius:63px;
+}
+.goods p{
+	font-size: 14px;
+}
+.goods p span{
+	color:#e10a0f;
+}
+/*banner*/
+.banner{
+	width:100%;
+	height:385px;
+	position:relative;
+	overflow:hidden;
+}
+.banner img{
+	height:100%;
+	width:1600px;
+	position:absolute;
+	left:50%;
+	margin-left:-800px;
+}
+/*内容区域con*/
+.conbg{
+	width:100%;
+	height:1030px;
+	background-color:#f6f6f6;
+	
+}
+.con{
+	width:1190px;
+	height:1030px;
+	margin:0 auto;
+}
+.con .logos{
+	width:1190px;
+	height: 256px;
+}
+.con .logos h4{
+	height:42px;
+	width:1190px;
+	margin:0;
+	float:left;
+}
+.con .logos h4 a{
+	display: block;
+	height:42px;
+	line-height: 42px;
+	padding-right:20px;
+	color:#000;
+	font-size:12px;
+	float:left;
+	font-weight:500;
+}
+.con .logos h4 .a1{
+	font-weight:600;
+}
+.con .logos-con{
+	height:214px;
+	width:1190px;
+	float:left;
+	background-color:#ffffff;
+}
+.con .logos .logos-con .ul1{
+	height:213px;
+	width:989px;
+	border-left:1px solid #dfdfdf;
+	border-top:1px solid #dfdfdf;
+	float: left;
+}
+.con .logos .logos-con .ul1 li{
+	height: 70px;
+	width:140px;
+	float:left;
+	border-right:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+}
+.con .logos .logos-con .ul1 li a{
+	display:block;
+	width:140px;
+	height: 70px;
+	float:left;
+	background: url(../img/名鞋库/logo.png) no-repeat -105px -174px;
+}
+.con .logos .logos-con .ul1 .logo1 a{
+	background: url(../img/名鞋库/logo.png) no-repeat -630px -9px;
+}
+.con .logos .logos-con .ul1 .logo3 a{
+	background: url(../img/名鞋库/logo.png) no-repeat -967px -330px;
+}
+.con .logos .logos-con .logos-con-r{
+	width:190px;
+	height:214px;
+	padding:0 0 0 10px;
+	float:left;
+	/*background:yellow;*/
+}
+.con .logos .logos-con .logos-con-r ul{
+	height: 60px;
+	padding:0 3px;
+	width:182px;
+	float: left;
+	border:1px solid #efefef;
+}
+.con .logos .logos-con .logos-con-r ul li{
+	height:20px;
+	width:170px;
+	padding-left:18px;
+	line-height:20px;
+	background: url(../img/名鞋库/con-logos3.gif) no-repeat 7px 9px;
+}
+.con .logos .logos-con .logos-con-r ul li a{
+	font-size:12px;
+	color:#767676;
+}
+.con .logos .logos-con .logos-con-r p{
+	height:34px;
+	width:190px;
+	line-height:34px;
+	float:left;
+	background:url(../img/名鞋库/con-logos1.gif) no-repeat 70px 12px;
+}
+.con .logos .logos-con .logos-con-r .image{
+	width: 182px;
+	height: 104px;
+	float: left;
+	padding: 3px;
+	border: 1px solid #ededed;
+}
+.con-m{
+	width:1190px;
+	height: 316px;
+	padding:10px 0 0 0;
+}
+.con-m a{
+	display:block;
+	float:left;
+	height: 290px;
+}
+.con-m .a1{
+	width:350px;
+	padding-right:10px;
+	background:url(../img/名鞋库/s150908zj1.jpg) no-repeat left center;
+}
+.con-m .a2{
+	width:205px;
+	padding-right:10px;
+	background:url(../img/名鞋库/con-m1.jpg) no-repeat left center;
+}
+.con-m .a3{
+	width:215px;
+	padding-right:10px;
+	background:url(../img/名鞋库/s150914zj3.jpg) no-repeat left center;
+}
+.con-m .a4{
+	width:190px;
+	padding-right:10px;
+	background:url(../img/名鞋库/s150914zj4.jpg) no-repeat left center;
+}
+.con-m .a5{
+	width:190px;
+	background:url(../img/名鞋库/s150827zj5.jpg) no-repeat left center;
+}
+.con .con-bottom{
+	height: 450px;
+	width:1190px;
+}
+.con .con-bottom .con-bottom-l{
+	width:200px;
+	height:426px;
+	float:left;
+	background-color:#FFF;
+}
+.con .con-bottom .con-bottom-l h3{
+	height:60px;
+	width:200px;
+	background:url(../img/con-bottom111.png) no-repeat left center;
+	float:left;
+}
+.con .con-bottom .con-bottom-l .ul1{
+	height: 198px;
+	width: 190px;
+	float:left;
+	border-bottom: 1px dashed #eaeaea;
+}
+.con .con-bottom .con-bottom-l .ul1 li{
+	width:95px;
+	height: 39px;
+	border-bottom:1px dashed #eaeaea;
+	float: left;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo9{
+	border-bottom:none;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo10{
+	border-bottom:none;
+}
+
+.con .con-bottom .con-bottom-l .ul1 li a{
+	display:block;
+	width:95px;
+	height:39px;
+	float:left;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo1 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 4px -1161px;
+	border-right:1px dashed #eaeaea;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo2 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 6px -150px;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo3 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 4px -760px;
+	border-right:1px dashed #eaeaea;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo4 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 6px -800px;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo5 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 4px -76px;
+	border-right:1px dashed #eaeaea;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo6 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 6px -113px;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo7 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 4px -76px;
+	border-right:1px dashed #eaeaea;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo8 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 6px -113px;
+}
+.con .con-bottom .con-bottom-l .ul1 .logo9 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 4px -76px;
+	border-right:1px dashed #eaeaea;
+	
+}
+.con .con-bottom .con-bottom-l .ul1 .logo10 a{
+	
+	background:url(../img/名鞋库/201409101646002.png) no-repeat 6px -113px;
+	
+}
+.con .con-bottom-l .ul2{
+	height:165px;
+	width:200px;
+	float:left;
+}
+.con .con-bottom-l .ul2 li{
+	height:33px;
+	width:100px;
+	float: left;
+	text-align: center;
+	line-height: 33px;
+}
+.con .con-bottom-l .ul2 li a{
+	font-size:14px;
+	color:#000;
+}
+.con .con-bottom .con-bottom-c{
+	height:426px;
+	width:392px;
+	float:left;	
+}
+.con .con-bottom .con-bottom-c a{
+	display:block;
+	width:392px;
+	height:426px;
+	background: url(../img/名鞋库/s1508271f1.jpg) no-repeat center;	
+}
+
+.con .con-bottom .con-bottom-r{
+	width:598px;
+	height:426px;
+	float:right;
+}
+.con .con-bottom .con-bottom-r .ul3{
+	width:598px;
+	height:426px;
+	float:left;
+}
+.con .con-bottom .con-bottom-r .ul3 li{
+	width:198px;
+	border-left:1px solid #d2d2d2;
+	float:left;
+}
+
+.con .con-bottom .con-bottom-r .ul3 .xie1,.con .con-bottom .con-bottom-r .ul3 .xie2,.con .con-bottom .con-bottom-r .ul3 .xie3{
+	height:244px;
+	width:198px;
+	border-bottom:1px solid #d2d2d2;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie4,.con .con-bottom .con-bottom-r .ul3 .xie5,.con .con-bottom .con-bottom-r .ul3 .xie6{
+	height:181px;
+	width:198px;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie1 a,.con .con-bottom .con-bottom-r .ul3 .xie2 a,.con .con-bottom .con-bottom-r .ul3 .xie3 a{
+	display:block;
+	height:244px;
+	width:198px;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie4 a,.con .con-bottom .con-bottom-r .ul3 .xie5 a,.con .con-bottom .con-bottom-r .ul3 .xie6 a{
+	display:block;
+	height:181px;
+	width:198px;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie1 a{
+	background:url(../img/名鞋库/s15081f2.jpg) no-repeat left top;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie2 a{
+	background:url(../img/名鞋库/s15081f3.jpg) no-repeat left top;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie3 a{
+	background:url(../img/名鞋库/s15081f2.jpg) no-repeat left top;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie4 a{
+	background:url(../img/名鞋库/s15081f5.jpg) no-repeat left top;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie5 a{
+	background:url(../img/名鞋库/s15081f7.jpg) no-repeat left top;
+}
+.con .con-bottom .con-bottom-r .ul3 .xie6 a{
+	background:url(../img/名鞋库/s15081f5.jpg) no-repeat left top;
+}
+
+/*foot*/
+.footbg{
+	height:222px;
+	width:100%;
+	border-top:2px solid #ce3c3d;
+	position:relative;
+	background-color: #f6f6f6;
+}
+.foot{
+	width:1190px;
+	height:207px;
+	padding-top:15px;
+	position: absolute;
+	left:50%;
+	margin-left:-595px;	
+	/*background:yellow;*/
+}
+.foot-l{
+	width:230px;
+	height:195px;
+	padding:0 0 0 16px;
+	border-right:1px solid #dedede;
+	float:left;
+}
+.foot-l .telnum{
+	height: 39px;
+	widows:230px;
+	background:url(../img/名鞋库/foot3.jpg) no-repeat left top;
+	margin-bottom:8px;
+}
+.foot-l p{
+	font-size:12px;
+	height:18px;
+	color:#999999;
+}
+.foot-l .ewm{
+	height: 96px;
+	width:230px;
+	margin-top:8px;
+} 
+.foot-l .ewm img{
+	display:inline;
+	margin-right:16px;
+}
+.foot-r{
+	width:892px;
+	height:195px;
+	padding-left:50px;
+	float:right;
+	border-left:1px solid #dedede;
+}
+.foot-r1,.foot-r2,.foot-r3,.foot-r4{
+	width:225px;
+	height:127px;
+	padding-top:68px;
+	background: url(../img/名鞋库/2014052815002.png) no-repeat left top;
+	float: left;
+}
+.foot-r2{
+	background: url(../img/名鞋库/2014052815004.png) no-repeat left top;
+	float: left;
+}
+.foot-r3{
+	background: url(../img/名鞋库/2014052815005.png) no-repeat left top;
+	float: left;
+}
+.foot-r4{
+	width:217px;
+	background: url(../img/名鞋库/2014052815003.png) no-repeat left top;
+	float: left;
+}
+.foot-r dl dt{
+	font-size: 14px;
+	color: #656565;
+	height:32px;
+	line-height: 32px;
+}
+.foot-r dl dd{
+	font-size:12px;
+	height: 20px;
+	line-height: 20px;
+}
+.foot-r dl dd a{
+	color: #969696;
+}

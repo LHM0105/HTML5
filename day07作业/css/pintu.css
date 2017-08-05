@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg{
+	width:1350px;
+	height:580px;
+	background:url(../img/bj.jpg);
+	position:relative;
+	overflow:hidden;
+	}
+.img7{
+	width:100%;
+	}
+.img3{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+.img2{
+	position:absolute;
+	top:50%;
+	left:-10%;
+	}
+.img4{
+	position:absolute;
+	right:100px;
+	top:50px;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,ul,li{
+	margin:0;
+	padding:0;
+	}
+.box{
+	margin:100px auto;
+	height:200px;
+	width:800px;
+	}
+ul{
+	
+	height:42px;
+	width:800px;
+	background-color:#fdaf17;
+	}
+li{
+	list-style:none;
+	height:37px;
+	float:left;
+	border-left:1px solid #dadadc;
+	border-right:1px solid #a8a6ab;
+	}
+li a{
+	text-decoration:none;
+	display:block;
+	padding:0 25px;
+	height:37px;
+	background:url(../img/nav5-1.jpg) repeat-x;
+	text-align:center;
+	line-height:37px;
+	}
+li a:hover{
+	background:#fbb017;
+	}

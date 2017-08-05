@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	height:375px;
+	width:500px;
+	position:relative;
+	overflow:hidden;
+	}
+.box1{
+	height:375px;
+	width:500px;
+	overflow:hidden;
+	}
+.box img{
+	width:100%;
+	}
+.links{
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	}
+.links a{
+	display:block;
+	width:30px;
+	height:30px;
+	background:#FFF;
+	float:left;
+	margin:0 5px;
+	text-decoration:none;
+	text-align:center;
+	color:black;
+	line-height:30px;
+	opacity:0.6;
+	}
+

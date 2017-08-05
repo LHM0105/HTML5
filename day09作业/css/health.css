@@ -1,0 +1,74 @@
+html,body{
+	height:100%;
+	/*overflow: hidden;*/
+	}
+html,body,ul,li{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.banner{
+	height:84%;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.banner img{
+	height: 100%;
+	width:1440px;
+	position:absolute;
+	margin-left:-720px;
+	left:50%;
+}
+.nav{
+	height: 10%;
+	width:100%;
+}
+
+.nav ul{
+	height:100%;
+	width:692px;
+	margin:0 auto;
+	
+}
+.nav ul li{
+	float: left;
+	height:100%;
+}
+.nav ul li a{
+	display:inline-block;
+	padding:0 20px;
+	vertical-align: middle;
+	color: #000;
+	font-size: 14px;
+}
+.nav ul li span{
+	vertical-align: middle;
+	display:inline-block;
+	height:100%;
+}
+.foot{
+	text-align:center;
+	height:6%;
+	width:100%;
+	background: url(../img/images/health_05.gif) repeat-x;
+}
+.foot p{
+	
+	
+	display: inline-block;
+	vertical-align:middle;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+
+.foot span{
+	vertical-align:middle;
+	display:inline-block;
+	height:100%;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>根据后缀识别图标，利用选择器设置不同图标</title>
+		<style>
+			ul{
+				width:600px;
+				margin:0 auto;
+			}
+			li{
+				height: 20px;
+				padding-right:30px;
+			}
+			li:first-child{
+				background:url(img/bg.png) no-repeat 105px -408px;
+			}
+			li:last-child{
+				background:url(img/bg.png) no-repeat 70px -325px;
+			}
+			li:nth-child(2){
+				background:url(img/bg.png) no-repeat 46px -380px;
+			}
+			li:nth-child(3){
+				background:url(img/bg.png) no-repeat 88px 3px;
+			}
+			li:nth-child(4){
+				background:url(img/bg.png) no-repeat 125px -46px;
+			}
+			li:nth-child(5){
+				background:url(img/bg.png) no-repeat 80px -72px;
+			}
+			
+			li:nth-child(6){
+				background:url(img/bg.png) no-repeat 78px -97px;
+			}
+			li:nth-child(7){
+				background:url(img/bg.png) no-repeat 70px -122px;
+			}
+			li:nth-child(8){
+				background:url(img/bg.png) no-repeat 98px -170px;
+			}
+			li:nth-child(9){
+				background:url(img/bg.png) no-repeat 100px -170px;
+			}
+			li:nth-child(10){
+				background:url(img/bg.png) no-repeat 94px -167px;
+			}
+			li:nth-child(11){
+				background:url(img/bg.png) no-repeat 80px -190px;
+			}
+			li:nth-child(12),li:nth-child(12)+li{
+				background:url(img/bg.png) no-repeat 100px -214px;
+			}
+			li:nth-child(14){
+				background:url(img/bg.png) no-repeat 76px -242px;
+			}
+			li:nth-last-child(4){
+				background:url(img/bg.png) no-repeat 100px -272px;
+			}
+			li:nth-last-child(3){
+				background:url(img/bg.png) no-repeat 36px -298px;
+			}
+			li:nth-last-child(2){
+				background:url(img/bg.png) no-repeat 174px -352px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>W3cplus.com</li>
+			<li>home</li>
+			<li>Word文档</li>
+			<li>Powerpoint文档</li>
+			<li>excel文档</li>
+			<li>html文档</li>
+			<li>pdf文档</li>
+			<li>jpg图片文档</li>
+			<li>png图片文档</li>
+			<li>gif图片文档</li>
+			<li>flash文档</li>
+			<li>zip压缩文档</li>
+			<li>rar压缩文档</li>
+			<li>mp3文档</li>
+			<li>exe安装文件</li>
+			<li>txt</li>
+			<li>w3cplus@hotmail.com</li>
+			<li>本地链接</li>
+		</ul>
+	</body>
+</html>

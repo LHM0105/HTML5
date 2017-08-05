@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.bg{
+	height:600px;
+	width:600px;
+	background-color:grey;
+	margin:100px auto;	
+	}
+.box1{
+	height:100px;
+	width:150px;
+	border-radius:10px;
+	background-color:pink;
+	
+	}
+.box2{
+	height:300px;
+	width:300px;
+	padding:100px;
+	}
+.topleft{
+	width:100px;
+	height:100px;
+	background:#66ccff url(../img/corner_lt.gif) no-repeat;
+	}
+.topright{
+	width:100px;
+	height:100px;
+	background:url(../img/corner_rt.gif) no-repeat right top;
+	}
+.bottomleft{
+	width:100px;
+	height:12px;
+	background:#66ccff url(../img/corner_lb.gif) no-repeat;
+	}
+.bottomright{
+	width:100px;
+	height:12px;
+	background:url(../img/corner_rb.gif) no-repeat right bottom;
+	}

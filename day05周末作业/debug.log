@@ -1,0 +1,9 @@
+[0721/194101.298:ERROR:process_reader_win.cc(142)] SuspendThread: 拒绝访问。 (0x5)
+[0721/194101.305:ERROR:exception_snapshot_win.cc(87)] thread ID 2372 not found in process
+[0721/194101.306:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0721/194112.042:ERROR:process_info.cc(343)] VirtualQueryEx: 拒绝访问。 (0x5)
+[0721/194112.045:ERROR:process_info.cc(564)] ReadMemoryInfo failed
+[0721/194112.052:ERROR:process_reader_win.cc(142)] SuspendThread: 拒绝访问。 (0x5)
+[0721/194112.053:ERROR:exception_snapshot_win.cc(87)] thread ID 7808 not found in process
+[0721/194112.053:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0721/194112.053:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
