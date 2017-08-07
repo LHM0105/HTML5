@@ -1,8 +1,0 @@
-[0718/095953.571:ERROR:process_reader_win.cc(142)] SuspendThread: 拒绝访问。 (0x5)
-[0718/095953.577:ERROR:exception_snapshot_win.cc(87)] thread ID 5220 not found in process
-[0718/095953.577:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
-[0718/100004.570:ERROR:process_reader_win.cc(233)] ReadMemory at 0x56637a0 of 32768 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
-[0718/100004.574:WARNING:pe_image_annotations_reader.cc(65)] could not read simple annotations from C:\Program Files (x86)\Google\Chrome\Application\57.0.2987.110\chrome_elf.dll
-[0718/100004.640:ERROR:process_reader_win.cc(233)] ReadMemory at 0x4d63000 of 53248 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
-[0718/100004.640:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
-[0718/100004.645:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)

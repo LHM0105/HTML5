@@ -1,0 +1,50 @@
+html,body,li,ul,figcaption,figure,header,footer,article{
+	margin:0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+header{
+	/*width:100vw;*/
+	height:13.75vw;/*88px;*/
+	background:#0dc441;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:5.3vw;
+	color: #ffffff;
+}
+section{
+	padding:4.69vw/* 30px*/;
+}
+section form{
+	display:flex;
+	flex-direction:column;
+}
+section form input{
+	height:10.3vw; /*66px;*/
+	border: 0;
+	border-bottom: 1px solid #aaa;
+	margin-bottom:7.9vw;
+	font-size: 4.375vw;/*28px;*/
+}
+section form p{
+	font-size:3.4vw;/*22px*/;
+}
+section form p a{
+	text-decoration: underline;
+	color:#0DC441;
+}
+section form input:last-of-type{
+	background:#0DC441;
+	font-size: 5.3vw;/*34px;*/
+	color: #ffffff;
+}
