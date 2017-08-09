@@ -1,0 +1,32 @@
+html,body,ul,li{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	width:1200px;
+	height:40px;
+	border:1px solid #ccc;
+	margin:50px auto;
+}
+ul li{float: left;background: #FFFFff;}
+li a{
+	display: block;
+	padding:0 10px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	background:url(../img/360bg.png) no-repeat 10px -54px;
+	text-indent: 30px;
+	transition: background 0.5s;
+}
+li a:hover{
+	background: url(../img/360bg.png) no-repeat 10px -92px;
+	color: green;
+	font-weight: 600;
+}

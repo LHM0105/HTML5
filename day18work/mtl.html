@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>摩天轮</title>
+		<style type="text/css">
+			body,html{padding: 0;margin: 0;}
+			.box{
+				width:768px;
+				height:768px;
+				margin:10px auto;
+				background: url(img/fsw.png) no-repeat center;
+				position:relative;
+				animation: myrelate 10s linear infinite;
+			}
+			.box img{
+				position:absolute;
+				transform-origin:center 20%;
+			}
+			.box img:nth-of-type(1){
+				top:10px;
+				left:330px;
+				animation: myrelate 10s linear infinite reverse;
+				/*transform-origin:center 10%;*/
+			}
+			.box img:nth-of-type(2){
+				top:470px;
+				left:0;
+				animation: myrelate 10s linear infinite reverse;
+				
+			}
+			.box img:nth-of-type(3){
+				top:470px;
+				left:610px;
+				animation: myrelate 10s linear infinite reverse;
+				
+			}
+			@keyframes myrelate{
+				from{transform: rotate(0);}
+				to{transform: rotate(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<img src="img/boy.png" />
+			<img src="img/girl.png" />
+			<img src="img/shamegirl.png" />
+		</div>
+	</body>
+</html>

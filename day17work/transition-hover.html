@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百叶窗效果</title>
+		<style type="text/css">
+			body{
+				background: #000;
+			}
+			.box{
+				width:800px;
+				height: 320px;
+				position: absolute;
+				left:0;
+				bottom: 0;
+				right: 0 ;
+				top: 0;
+				margin: auto;
+				border: 1px solid #ffffff;
+				box-shadow:5px 5px 20px #ffffff;
+				overflow: hidden;
+			}
+			.box>div{
+				float: left;
+				width:160px;
+				transition: all 1s; 
+			}
+			.box:hover div{
+				width:40px;
+			}
+			.box>div:hover{
+				width:640px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div><img src="img/img1.jpg"/></div>
+			<div><img src="img/img2.jpg"/></div>
+			<div><img src="img/img3.jpg"/></div>
+			<div><img src="img/img4.jpg"/></div>
+			<div><img src="img/img5.jpg"/></div>
+		</div>
+	</body>
+</html>

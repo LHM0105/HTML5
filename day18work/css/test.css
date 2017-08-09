@@ -1,0 +1,130 @@
+html,body,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box{
+	width:100%;
+	height:100%;
+	background: url(../img/bg.png) no-repeat center;
+	background-size:cover;
+	position:relative;
+}
+.box .nav{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9;
+}
+.nav a{
+	display: block;
+	width:80px;
+	height:80px;
+	background:dodgerblue;
+	border-radius: 40px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 80px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #ffffff;
+	float:left;
+}
+#bga{
+	width:100%;
+	height:100%;
+	background: url(../img/aa.png) no-repeat center top;
+	background-size:contain;
+	position:absolute;
+	bottom:0;
+	z-index:1;
+	/*position: fixed;*/
+	transition: all 1s linear;
+}
+#bgb{
+	width:100%;
+	height:100%;
+	background:url(../img/img.png) no-repeat center bottom;
+	background-size:contain;
+	position: absolute;
+	bottom:0;
+	transition: all 1s linear;
+	opacity:0;
+}
+
+#bga:target{
+	/*animation:opacitybg 1s linear;*/
+	opacity:1;
+}
+/*#bga:target~#bgb{
+	
+	opacity:0;
+}*/
+#bgb:target{
+	/*animation:opacitybg 1s linear;*/
+	opacity:1;
+	z-index:3;
+}
+#bgb:target~#bga{
+	/*animation:opacitybg 1s linear reverse;*/
+	opacity: 0;
+}
+/*@keyframes opacitybg{
+	from{opacity:0;}
+	to{opacity:1;}
+}*/
+#bgb img{
+	position: absolute;
+	bottom: 60px;
+	right:0px;
+	animation:ma 10s linear infinite;
+	transform: scale(0.3);
+}
+@keyframes ma{
+	from{transform:translate(0) scale(0.3);}
+	to{transform:translate(-600%) scale(1.5);}
+}
+.box>img:nth-of-type(1){
+	position: absolute;
+	top: 30%;
+	left:-650px;
+	animation:plane 8s linear 1;
+}
+@keyframes plane{
+	from{transform:translate(0) scale(1);}
+	to{transform:translate(200%,-100%) scale(0);}
+}
+.box>img:nth-of-type(2){
+	position: absolute;
+	top:-100px;
+	right:-50px;
+	transform: scale(0.5);
+	animation:birds 20s cubic-bezier(.81,.91,.23,.14) infinite;
+	z-index:2;
+}
+.box>img:nth-of-type(3){
+	position: absolute;
+	top:-150px;
+	right:-150px;
+	transform: scale(0.5);
+	animation:birds 20s cubic-bezier(.81,.91,.23,.14) 3s infinite;
+	z-index:2;
+}
+.box>img:nth-of-type(4){
+	position: absolute;
+	top:-150px;
+	right:-160px;
+	transform: scale(0.5);
+	animation:birds 20s cubic-bezier(.81,.91,.23,.14) 7s infinite;
+	z-index:2;
+}
+@keyframes birds{
+	0%{transform: translate(0) scale(0.5);}
+	40%{transform: translate(-290%,160%) scale(0.5);}
+	60%{transform: translate(-310%,160%) scale(0.5);}
+	100%{transform: translate(-700%,0) scale(0.5);}
+}

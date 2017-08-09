@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小场景</title>
+	<style>
+		*{margin:0;padding:0;}
+		html,body{height:100%;}
+		#box{height:100%;position:relative;background:url(bg.png) no-repeat center;background-size:cover;}
+		#box .aa{opacity: 0;}
+		#box .active{opacity: 1}
+		#tree{width:100%;height:100%;display: block;transition: opacity 1s;}
+		.changeCon{display: block;width:100px;height:100px;background:#4d88e8;text-align:center;line-height:100px;position:absolute;cursor:pointer;opacity:0.6}
+		#change{right:10%;bottom:0;border-radius: 100px;}
+		#change2{right:20%;bottom:0;border-radius:100px;}
+		#ma{position: absolute;bottom:25%;left:90%;animation: ma 10s ease-in infinite;display:none;width:50px;height:50px;}
+		#box .ma{display: block;}
+		.xn{position:absolute;right:0;top:0;width:120px;height:120px;z-index: 10}
+		.feiji{position:absolute;left:-300px;bottom:10%;width:300px;height:150px;animation: feiji 30s infinite;z-index: 9}
+		#lvd{position: absolute;left:0;bottom:0;width:100%;opacity: 0;transition: opacity 3s}
+		#xn1{animation: fei 30s infinite;}
+		#xn2{animation: fei1 30s 4s infinite;}
+		#xn3{animation: fei2 30s 8s infinite;}
+		#xn4{animation: fei3 30s 12s infinite;}
+		@keyframes fei{
+			0%{right:0;top：0；}
+			50%{right:70%;top:50%;}
+			100%{right:100%;top:0;}
+
+		}
+		@keyframes fei1{
+			0{right:0;top：0；}
+			50%{right:60%;top:40%;}
+			100%{right:100%;top:0;}
+
+		}
+		@keyframes fei2{
+			0{right:0;top：0；}
+			50%{right:50%;top:30%;}
+			100%{right:100%;top:0;}
+
+		}
+		@keyframes fei3{
+			0{right:0;top：0；}
+			50%{right:40%;top:50%;}
+			100%{right:100%;top:0;}
+
+		}
+		@keyframes feiji{
+			0%{left:-300px;bottom:10%;width:300px;height:150px;}
+			100%{left:80%;bottom:100%;width:0;height:0;}
+		}
+		@keyframes ma{
+			0%{left:90%;bottom:25%;width:50px;height:50px;}
+			100%{left:-10%;bottom:0;width:220px;height: 165px;}
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<img id="tree" src="aa.png" />
+		<img id="xn1" class="xn" src="xn.gif" alt="" />
+		<img id="xn2" class="xn" src="xn.gif" alt="" />
+		<img id="xn3" class="xn" src="xn.gif" alt="" />
+		<img id="xn4" class="xn" src="xn.gif" alt="" />
+		<img class="feiji" src="feiji.png" alt="" />
+		<img id="lvd" src="img.png" alt="" />
+		<img id="ma" src="ma.gif" />
+	</div>
+	<audio src="mp3.mp3" autoplay="autoplay" loop="loop"></audio>
+	<span id="change" class="changeCon">切换绿地</span>
+	<span id="change2" class="changeCon">切换大树</span>
+	<script>
+		
+			var objLvd=document.getElementById("lvd")
+			var objImg=document.getElementById("tree");
+			var objChange2=document.getElementById("change2");
+			var objChange=document.getElementById("change");
+			var objMa=document.getElementById("ma");
+
+
+			var changeTree=function(){
+				objImg.className="aa";
+				objLvd.className="active"
+				objMa.className="ma";
+
+			}
+			var changeLvd=function(){
+				objImg.className="";
+				objLvd.className="";
+				objMa.className="";
+			}
+			objChange.onclick=changeTree;
+			objChange2.onclick=changeLvd;
+		
+	</script>
+</body>
+</html>

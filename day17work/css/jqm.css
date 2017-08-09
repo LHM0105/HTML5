@@ -1,0 +1,11 @@
+.box{
+	width:400px;
+	height: 500px;
+	border: 1px solid #aaa;
+}
+.head{
+	width:320px;
+	height:310px;
+	border: 1px solid #000000;
+	border-radius:155px;
+}
