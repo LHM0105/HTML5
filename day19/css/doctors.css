@@ -1,0 +1,121 @@
+html,body,header,figure,figcaption,h1,h2,h3,h4,h5,h6,article,footer,p{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width:100%;
+	height: 100%;
+}
+.box{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	/*justify-content: space-between;*/
+}
+.box header{
+	display:flex;
+	box-sizing: border-box;
+	width:100vw;
+	height: 12.2vw;
+	justify-content:flex-start;
+	align-items:center;
+	background:#098fe4;
+	flex-shrink:0;
+	padding: 0 2.5vw 0 2.5vw;
+}
+header a{
+	color: #FFFFFF;
+	font-size: 5.6vw;
+	height:12.2vw;
+	line-height: 12.2vw;
+}
+header h2{
+	font-size: 5.6vw;
+	color:#FFFFFF;
+	font-weight:normal;
+	margin:0 auto;
+}
+section{
+	background:#efefef;
+	overflow: auto;
+	flex-grow:1;
+}
+section h3{
+	height: 10.56vw;
+	font-size: 3.52vw;
+	line-height: 10.56vw;
+	margin-left: 2.5vw;
+	font-weight: normal;
+}
+section article{
+	width:95.2vw;
+	height:27.6vw;
+	margin:0 auto;
+	background: #FFFFFF;
+	border:1px solid #ccc;
+	margin-bottom:1.85vw ;
+	border-radius:1vw;
+}
+section article .top{
+	height: 20vw;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+}
+section article .top img{
+	width:16vw;
+	height: 16vw;
+	flex-shrink:0;
+	flex-grow: 0;
+}
+section article .top .right{
+	font-size:2.8vw;
+	color:#585657;
+	width:69.4vw;
+}
+section article .top .right h4 b{
+	font-size:3.7vw;
+	color: #000000;
+}
+section article .bottom{
+	height: 7.6vw;
+	border-top: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+}
+section article .bottom a{
+	display: block;
+	float: left;
+	height:4.4vw;
+	font-size:3.2vw;
+	color: #FFFFFF;
+	background:#098FE4;
+	border-radius:0.6vw;
+	padding: 0 0.6vw;
+	margin-left:1.5vw;
+}
+/*footer*/
+footer{
+	height: 13.52vw;
+	display: flex;
+	justify-content:space-around;
+	flex-shrink:0;
+}
+footer a{
+	font-size:4vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:gray;
+}
+footer a:hover{
+	color: dodgerblue;
+}
+footer a span{
+	font-size:2.8vw;
+}

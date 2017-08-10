@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加新患者</title>
+		<link rel="stylesheet" type="text/css" href="css/newuser.css"/>
+		<link rel="stylesheet" type="text/css" href="fa/css/font-awesome.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<div class="box">
+			<header>
+				<a href="index.html"><</a>
+				<h2>免费咨询</h2>
+			</header>
+			<section>
+				<form>
+					<label for="name">姓名:<input type="text" id="name" value="" placeholder="请输入真实姓名" /></label>
+					<label for="sex">性别:<input type="text" id="sex" value="" placeholder="请输入性别" /></label>
+					<label for="telnum">手机号码:<input type="tel" id="telnum" value="" placeholder="请输入11位手机号码" /></label>
+					<label for="birthday">出生日期：<input type="date" value="" id="birthday"/></label>
+					<p>
+						<span>所在省市：</span>
+						<input type="text" list="province" value="--省--"/>
+						<input type="text" list="province" value="--市--"/>
+					</p>
+					
+					<datalist id="province">
+						<option>河南</option>
+						<option>山东</option>
+						<option>江苏</option>
+						<option>上海</option>
+					</datalist>
+					<p>
+						<span>病状描述：</span>
+						<textarea></textarea>
+					</p>
+					<p>
+						<span>上传附件：</span>
+						<a href="#">+</a>
+					</p>
+					<input type="submit" value="确定" />
+				</form>
+			</section>
+		</div>
+	</body>
+</html>
