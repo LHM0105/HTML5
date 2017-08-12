@@ -1,0 +1,82 @@
+.banner{
+	height:2.8rem;
+	background: url(../img/phone3.jpg) no-repeat center;
+	background-size:cover;
+}
+section{
+	font-size: 0.26rem;
+	background:#f2f2f2;
+	overflow:auto;
+	flex-grow:1;
+}
+section nav{
+	height: 2.95rem;
+	background: #fff;
+	display:flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:space-around;
+	padding: 0 0.36rem;
+	margin-bottom: 0.2rem;
+}
+section nav figure{
+	height:;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	flex-shrink:0;
+}
+section nav figure figcaption{
+	width:0.8rem;
+	height:0.8rem;
+	background:url(../img/css-sprit2.png) no-repeat -0.46rem -3.3rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(2) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -1.92rem -3.3rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(3) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -3.36rem -3.3rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(4) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -4.83rem -3.3rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(5) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -6.24rem -3.3rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(6) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -0.54rem -4.4rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(7) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -1.96rem -4.4rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(8) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -3.36rem -4.4rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(9) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -4.56rem -4.4rem;
+	background-size: 7.5rem;
+}
+section nav figure:nth-child(10) figcaption{
+	background:url(../img/css-sprit2.png) no-repeat -5.68rem -4.4rem;
+	background-size: 7.5rem;
+}
+section .banner2{
+	height:4.34rem ;
+	background: #fff url(../img/phone4.jpg) no-repeat center top;
+	background-size: 70%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+section .banner2 p{
+	font-size: 0.34rem;
+}

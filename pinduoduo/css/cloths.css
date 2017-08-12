@@ -1,0 +1,102 @@
+section{
+	font-size: 0.26rem;
+	background:#f2f2f2;
+	overflow:auto;
+	flex-grow:1;
+}
+section nav{
+	height: 3.4rem;
+	background: #fff;
+	display:flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:space-around;
+	padding: 0 0.36rem;
+	margin-bottom: 0.2rem;
+}
+section nav figure{
+	height:;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	flex-shrink:0;
+}
+section nav figure figcaption{
+	width:1rem;
+	height: 1rem;
+	background:url(../img/css-sprit2.png) -0.42rem -6.45rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(2) figcaption{
+	background:url(../img/css-sprit2.png) -2.32rem -6.45rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(3) figcaption{
+	background:url(../img/css-sprit2.png) -4.1rem -6.45rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(5) figcaption{
+	background:url(../img/css-sprit2.png) -5.9rem -6.45rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(6) figcaption{
+	background:url(../img/css-sprit2.png) -0.5rem -8.14rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(7) figcaption{
+	background:url(../img/css-sprit2.png) -2.3rem -8.14rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(8) figcaption{
+	background:url(../img/css-sprit2.png) -4.1rem -8.14rem;
+	background-size: 7.5rem;
+	
+}
+section nav figure:nth-child(10) figcaption{
+	background:url(../img/css-sprit2.png) -5.9rem -8.14rem;
+	background-size: 7.5rem;
+	
+}
+section .content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+section .content article{
+	height:5.42rem;
+	width:3.7rem;
+	margin-bottom: 0.1rem;
+	background: #fff;
+}
+section .content .img{
+	width:3.7rem;
+	height: 3.7rem;
+	background: url(../img/phone1.jpg) no-repeat center;
+	background-size: cover;
+}
+section .content p:nth-of-type(1){
+	padding: 0.1rem;
+	height:0.9rem;
+	font-size:0.22rem;
+}
+section .content p:nth-of-type(2){
+	height:0.78rem;
+	font-size:0.22rem;
+	line-height: 0.78rem;
+}
+section .content p:nth-of-type(2) span{
+	color: red;
+	font-size: 0.3rem;
+}
+section .content p:nth-of-type(2) i{
+	color: #aaa;
+	float: right;
+	margin-right: 0.1rem;
+}

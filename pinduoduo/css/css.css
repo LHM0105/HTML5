@@ -1,0 +1,91 @@
+/*用position在移动端里面没定位到，单位用了rem*/
+html,body,p,h1,h2,h3,h4,h5,h6,ul,li,dl,dd,dt,figcaption,figure,article{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+html,body{height: 100%;}
+body{
+	display: flex;
+	flex-direction:column;
+}
+
+header{
+	flex-shrink:0;
+	font-size:0.2rem;
+}
+header h1{
+	height:0.92rem;
+	background:#e23e35;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #fff;
+	font-weight: 500;
+}
+header nav{
+	height: 0.8rem;
+}
+header nav ul{
+	height:0.8rem;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0.35rem;
+}
+header nav ul li{
+	height:0.8rem;
+}
+header nav ul li a{
+	display: block;
+	height: 0.8rem;
+	line-height:0.8rem;
+	font-size: 0.32rem;
+	color: #000;
+}
+header nav ul li a:hover{
+	color:red;
+	border-bottom:3px solid red;
+}
+footer{
+	height: 1rem;
+	background:#f9f9f9;
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-shrink: 0;
+}
+footer article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:1rem;
+}
+footer article span{
+	display: block;
+	width:0.6rem;
+	height: 0.6rem;
+	background:url(../img/css-sprit2.png) no-repeat -0.58rem -5.64rem;
+	background-size:7.5rem;
+}
+footer article:nth-child(2) span{
+	background:url(../img/css-sprit2.png) no-repeat -1.46rem -5.64rem;
+	background-size:7.5rem;
+}
+footer article:nth-child(3) span{
+	background:url(../img/css-sprit2.png) no-repeat -2.36rem -5.64rem;
+	background-size:7.5rem;
+}
+footer article:nth-child(4) span{
+	background:url(../img/css-sprit2.png) no-repeat -3.46rem -5.64rem;
+	background-size:7.5rem;
+}
+footer article:nth-child(5) span{
+	background:url(../img/css-sprit2.png) no-repeat -4.46rem -5.64rem;
+	background-size:7.5rem;
+}

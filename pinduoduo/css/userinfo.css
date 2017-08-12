@@ -1,0 +1,132 @@
+
+header{
+	flex-shrink:0;
+}
+header .user{
+	height:3.02rem;
+	background:#e23e35;
+	display: flex;
+	box-sizing: border-box;
+	padding:0.2rem;
+	justify-content:space-between;
+	align-items: center;
+}
+header .user .img{
+	width:1.35rem;
+	height: 1.35rem;
+	background: url(../img/photo.png) no-repeat center;
+	background-size: cover;
+	flex-shrink: 0;
+}
+header .user .info{
+	font-size: 0.34rem;
+	font-weight: normal;
+	flex-shrink:0;
+	width:5rem;
+	color: #fff;
+}
+header .user .info p{
+	font-size: 0.28rem;
+}
+.shop{
+	height:;
+	
+	padding-left:0.24rem;
+	font-size: 0.24rem;
+}
+.shop h2{
+	height:0.9rem;
+	border-bottom: 1px solid #ccc;
+	font-size:0.3rem;
+	line-height: 0.9rem;
+}
+.shop h2 a{
+	float: right;
+	margin-right:0.24rem;
+	color: #aaa;
+}
+.shop nav{
+	height:1.36rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.shop nav figure{
+	width:0.76rem;
+	display: flex;
+	flex-direction: column;
+}
+.shop nav figure figcaption{
+	height: 0.6rem;
+	background:url(../img/css-sprit2.png) no-repeat -0.82rem -0.2rem;
+	background-size: 7.5rem;
+}
+section{
+	font-size: 0.26rem;
+	background:#f2f2f2;
+	overflow:auto;
+	flex-grow:1;
+}
+section nav{
+	height: 1.5rem;
+	background: #fff;
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+	margin:0.16rem 0;
+}
+section nav figure{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+section nav figcaption{
+	width:0.7rem;
+	height: 0.7rem;
+	background:url(../img/css-sprit2.png) no-repeat -0.72rem -1rem;
+	background-size: 7.5rem;
+}
+section .mine{
+	
+}
+section .mine article{
+	background-color: #fff;
+	height: 0.9rem;
+	padding-left: 0.24rem;
+}
+section .mine article p{
+	background-color: #fff;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	text-indent: 0.64rem;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.3rem;
+	/*float: left;*/
+}
+section .mine article p span{
+	float: right;
+	margin-right: 0.24rem;
+}
+/*footer{
+	height: 1rem;
+	background:#f9f9f9;
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-shrink: 0;
+}
+footer article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:1rem;
+}
+footer article span{
+	display: block;
+	width:0.6rem;
+	height: 0.6rem;
+	background:greenyellow;
+}*/
