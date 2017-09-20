@@ -1,0 +1,59 @@
+.carousel{
+	overflow: hidden;
+}
+.img-list{
+	width:3200px;640*5;
+	height:320px;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.carousel ul,.carousel ul li{
+	margin: 0;
+	padding: 0;
+}
+.carousel ul li{
+	list-style: none;
+	float: left;
+}
+.carousel a{
+	text-decoration: none;
+	position: absolute;
+	width: 30px;
+	height: 40px;
+	background:rgba(255,255,255,0.4);
+	color:#fff;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+}
+.carousel .left{
+	left: 0;
+	top:50%;
+	margin-top: -20px;
+}
+.carousel .right{
+	right: 0;
+	top:50%;
+	margin-top: -20px;
+}
+
+.carousel .btn-list{
+	position: absolute;
+	background: rgba(255,255,255,0.3);
+	bottom: 20px;
+	left: 50%;
+	border-radius:10px;
+}
+.carousel .btn-list li{
+	width:10px;
+	height: 10px;
+	background:rgba(255,255,255,0.5);
+	border-radius: 50%;
+	margin: 3px;
+}
+.carousel .btn-list .active{
+	background:#fff;
+}
