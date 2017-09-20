@@ -1,0 +1,40 @@
+html,body,ul,li{
+	margin:0;
+	padding:0;
+}
+.box{
+	width:1100px;
+	margin:0 auto;
+}
+.box ul{
+	overflow: hidden;
+}
+.box ul li{
+	list-style: none;
+	float: left;
+	margin:10px;
+	padding:20px 10px;
+	border:1px dotted #CCCCCC;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #CCCCCC;
+	text-align: center;
+}
+.box ul li a{
+	background: orangered;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.box ul img{
+	display: block;
+	width:220px;
+	height:220px;
+	margin:10px 0;
+	background:#EEEEEE;
+}
+.box ul li .title{
+	font-size:20px;
+
+}
+.box ul li .price{
+	color:#666;
+}
