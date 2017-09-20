@@ -46,7 +46,7 @@ html,body{
 	float: left;
 	padding:0 15px 0 0;
 }
-.top ul{
+.top>ul{
 	width:575px;
 	height:16px;
 	display:inline-block;
@@ -56,11 +56,11 @@ html,body{
 	display:inline-block;
 	height:25px;
 }
-.top ul li{
+.top>ul li{
 	float:left;
 	height:16px;
 }
-.top ul a{
+.top>ul>li>a{
 	display:block;
 	float:left;
 	height:16px;
@@ -69,33 +69,65 @@ html,body{
 	font-size:12px;
 	color:#666666;
 }
-.top ul .a1 a{
+.top>ul .a1 a{
 	text-indent:15px;
 	width:100px;
 	background:url(../img/名鞋库/li.gif) no-repeat 83px 6px;
 }
-.top ul .a2 a{
+.top>ul .a1{
+	position: relative;
+}
+.top>ul .a1>a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.top>ul .a1 #list{
+	position: absolute;
+	width:180px;
+	height:90px;
+	background: #fff;
+	border: 1px solid #ccc;
+	top:20px;
+	left:-80px;
+	display:none;
+}
+.top>ul .a1 #list>ul{
+	width:80px;
+	float:left;
+	/*margin:0 10px;*/
+}
+.top>ul .a1 #list>ul li{
+	width:60px;
+	margin:0 10px 0 15px;
+	padding:6px 0;
+	border-bottom: 1px dotted #AAAAAA;
+	font-size: 12px;
+}
+.top>ul .a1 #list>ul li a:hover{
+	color: red;
+}
+.top>ul .a2 a{
 	width:116px;
 	background:url(../img/名鞋库/li.gif) no-repeat 98px 6px;
 }
-.top ul .a2 a span{
+.top>ul .a2 a span{
 	display: block;
 	width:86px;
 	height:inherit;
 	background:url(../img/名鞋库/li2.gif) no-repeat 15px center;
 	padding-left:30px;
 }
-.top ul .a3 a{
+.top>ul .a3 a{
 	text-indent:15px;
 	width:90px;
 	color:#333333;
 }
-.top ul .a4 a{
+.top>ul .a4 a{
 	width:110px;
 	background:url(../img/名鞋库/qq.gif) no-repeat 14px 0;
 	text-indent:35px;
 }
-.top ul .a5 a{
+.top>ul .a5 a{
 	width:152px;
 	border-right:1px solid #d4d4d4;
 	background:url(../img/名鞋库/phone.gif) no-repeat 15px 0;
@@ -141,6 +173,8 @@ html,body{
 	border-bottom:2px solid #d5d5d5;
 	float:left;
 	margin:0;
+	text-indent: 10px;
+	outline:none;
 }
 .sec .btn{
 	width:65px;
@@ -219,13 +253,55 @@ html,body{
 	position:absolute;
 	z-index:2;
 	top:34px;
-	
+	display:none;
 }
 .nav-l ul li{
 	width:190px;
 	height:42.7px;
+	background:darkred;
+	/*overflow: hidden;*/
+	position: relative;
 }
-.nav-l ul li a{
+#shoesOfman{
+	position: absolute;
+	top:0;
+	left:190px;
+	width:300px;
+	height:300px;
+	padding:10px;
+	background:#EEEFFF;
+	display: none;
+}
+#shoesOfman dl{
+	width:100%;
+	margin-bottom: 10px;
+}
+#shoesOfman dl a:hover{
+	color: red;
+	text-decoration:underline;
+}
+#shoesOfman dl dt{
+	height:32px;
+	line-height: 40px;
+	border-bottom: 1px solid #000;
+}
+#shoesOfman dl dt>a{
+	display: block;
+	font-size: 14px;
+	color:#000;
+	font-weight: 600;
+	text-indent:10px;
+	transition: all 0.2s linear;
+}
+#shoesOfman dl dt>a:hover{
+	text-indent:15px;
+}
+#shoesOfman dl>a{
+	margin: 10px;
+	font-size: 14px;
+	color:#555;
+}
+.nav-l ul li>a{
 	display:block;
 	width:190px;
 	height:42.7px;
@@ -236,6 +312,13 @@ html,body{
 	color:white;
 	opacity:0.98;
 	filter:alpha(opacity=98);
+	transition: all 0.2s linear;
+
+}
+.nav-l ul li>a:hover{
+	background-color:darkred;
+	text-indent:50px;
+	text-decoration:underline;
 }
 .nav-l ul .a2 a{
 	background: #1f1909 url(../img/名鞋库/navcats_icon.png) no-repeat 12px -95px;

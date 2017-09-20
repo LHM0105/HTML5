@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>名鞋库</title>
 		<link href="css/mxk.css" rel="stylesheet" type="text/css" />
+		<script src="js/mxk.js"></script>
 	</head>
 	<body>
 		<!--top-->
@@ -16,7 +17,23 @@
 					</div>
 				</div>
 				<ul>
-					<li class="a1"><a href="">我的名鞋库</a></li>
+					<li class="a1" id="a1">
+						<a href="javascript:;">我的名鞋库</a>
+						<div id="list">
+							<ul>
+								<li><a href="#">111</a></li>
+								<li><a href="#">222</a></li>
+								<li><a href="#">3333</a></li>
+								
+							</ul>
+							<ul>
+								<li><a href="#">2111</a></li>
+								<li><a href="#">222111</a></li>
+								<li><a href="#">233111</a></li>
+								
+							</ul>
+						</div>
+					</li>
 					<li class="a2"><a href=""><span>手机名鞋库</span></a></li>
 					<li class="a3"><a href="">收藏名鞋库</a></li>
 					<li class="a4"><a href="">名鞋库客服</a></li>
@@ -31,7 +48,7 @@
 				<div class="search-c">
 					<form>
 						<div class="sec">
-							<input class="input" type="text" value="朗蒂维" />
+							<input id="secIpt" class="input" type="text" value="跑步鞋" />
 							<input class="btn" type="button" value="搜索" />
 						</div>
 					</form>
@@ -53,9 +70,41 @@
 		<div class="navbg">
 			<div class="nav">
 				<div class="nav-l">
-					<a class="head" href="#"></a>
+					<a id="allgoods" class="head" href="#"></a>
 					<ul>
-						<li class="a1"><a href="#">运动休闲鞋</a></li>
+						<li class="a1" id="runshoes">
+							<a href="#">运动休闲鞋</a>
+							<div id="shoesOfman">
+								<dl>
+									<dt><a href="javascript:;">运动男鞋</a></dt>
+									<a href="javascript:;">休闲鞋</a>
+									<a href="javascript:;">运动鞋</a>
+									<a href="javascript:;">跑步鞋</a>
+									<a href="javascript:;">帆布鞋</a>
+								</dl>
+								<dl>
+									<dt><a href="javascript:;">运动男鞋</a></dt>
+									<a href="javascript:;">休闲鞋</a>
+									<a href="javascript:;">运动鞋</a>
+									<a href="javascript:;">跑步鞋</a>
+									<a href="javascript:;">帆布鞋</a>
+								</dl>
+								<dl>
+									<dt><a href="javascript:;">运动男鞋</a></dt>
+									<a href="javascript:;">休闲鞋</a>
+									<a href="javascript:;">运动鞋</a>
+									<a href="javascript:;">跑步鞋</a>
+									<a href="javascript:;">帆布鞋</a>
+								</dl>
+								<dl>
+									<dt><a href="javascript:;">运动男鞋</a></dt>
+									<a href="javascript:;">休闲鞋</a>
+									<a href="javascript:;">运动鞋</a>
+									<a href="javascript:;">跑步鞋</a>
+									<a href="javascript:;">帆布鞋</a>
+								</dl>
+							</div>
+						</li>
 						<li class="a2"><a href="#">运动休闲服</a></li>
 						<li class="a3"><a href="#">跑步</a></li>
 						<li class="a4"><a href="#">篮球</a></li>
@@ -64,7 +113,6 @@
 						<li class="a7"><a href="#">户外</a></li>
 						<li class="a8"><a href="#">男鞋/女鞋</a></li>
 						<li class="a9"><a href="#">童鞋</a></li>
-						
 					</ul>
 				</div>
 				<!--nav-c-->

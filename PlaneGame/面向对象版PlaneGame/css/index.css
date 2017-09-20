@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+	overflow: hidden;
+	
+}
+ul li{
+	list-style: none;
+}
+#battle-field{
+	width:480px;
+	height:100%;
+	margin:0 auto;
+	background: url(../images/bg.jpg) repeat-y;
+	overflow: hidden;
+}
+#list{
+	margin:140px auto 0;
+	width:200px;
+}
+#list li{
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	background:cadetblue;
+	border-radius: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.logo{
+	width:300px;
+	position:absolute;
+	left:50%;
+	top:0;
+	margin-left: -150px;
+}
+
+.loading{
+	position:absolute;
+	left:41%;
+	top:200px;
+	display: none;
+}
+.me{
+	position:absolute;
+	bottom:-130px;
+	width:98px;
+	height:122px;
+}
+
+.bullet{
+	position:absolute;
+	width:7px;
+	height:18px;
+	background: url(../images/bullet.png) no-repeat center;
+}
+
+.enemy1{
+	position: absolute;
+	top:0;
+	left:0;
+	width:59px;
+	height:36px;
+	background: url(../images/plane1.png) no-repeat center;
+}
+.enemy2{
+	position: absolute;
+	top:0;
+	left:0;
+	width:70px;
+	height:92px;
+	background: url(../images/plane2.png) no-repeat center;
+}
+.enemy3{
+	position: absolute;
+	top:0;
+	left:0;
+	width:165px;
+	height:256px;
+	background: url(../images/plane3.png) no-repeat center;
+}
+
+.score{
+	position: absolute;
+	bottom: 0;
+	left:10px;
+	background: lightgreen;
+	width:100px;
+	height:50px;
+	padding:0 10px;
+	line-height: 50px;
+	border-radius:10px;
+	
+}
+.score span{
+	font-weight: 600;
+	font-size: 24px;
+	color: gray;
+}
